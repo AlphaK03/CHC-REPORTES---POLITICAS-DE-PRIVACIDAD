@@ -1,4 +1,4 @@
-# CHC REPORTES - POLÍTICA DE PRIVACIDAD
+
 
 ![Logo de CHC REPORTES](https://raw.githubusercontent.com/AlphaK03/CHC-REPORTES---POLITICAS-DE-PRIVACIDAD/main/Logo%20CHC%20fondo%20blanco.png)
 
