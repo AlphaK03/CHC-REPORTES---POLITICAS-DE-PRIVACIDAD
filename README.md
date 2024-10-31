@@ -1,6 +1,7 @@
 # CHC REPORTES - POLÍTICA DE PRIVACIDAD
 
-![CHC Logo](https://via.placeholder.com/150) <!-- Reemplaza el enlace con la URL de tu logo -->
+![Logo de CHC REPORTES](https://github.com/AlphaK03/CHC-REPORTES---POLITICAS-DE-PRIVACIDAD/raw/main/Logo%20CHC%20fondo%20blanco.png)
+ <!-- Reemplaza el enlace con la URL de tu logo -->
 
 **Última actualización: 30 de Octubre del 2024**
 
