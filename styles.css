@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #0c1834;  /* Color de texto principal */
     background-color: #f4f4f4;
 }
 
@@ -12,7 +12,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #0c1834;
+    background-color: #0c1834;  /* Fondo azul oscuro */
     color: #fff;
 }
 
@@ -24,6 +24,7 @@ header .logo {
 header h1 {
     font-size: 2em;
     margin: 0;
+    color: #ffb000;  /* Título en amarillo */
 }
 
 header p {
@@ -38,6 +39,7 @@ section {
     margin: auto;
     background: #fff;
     margin-bottom: 15px;
+    border-left: 5px solid #ffb000; /* Borde amarillo de acento */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -47,21 +49,63 @@ h2 {
     margin-top: 0;
 }
 
+h3 {
+    color: #ffb000; /* Subtítulos en amarillo */
+    margin-top: 10px;
+}
+
 ul {
     list-style-type: disc;
     margin: 10px 0;
     padding-left: 20px;
 }
 
+/* Links */
+a {
+    color: #0c1834;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ffb000; /* Efecto hover en amarillo */
+    text-decoration: none;
+}
+
 /* Footer */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #0c1834;
+    background-color: #0c1834; /* Fondo azul oscuro */
     color: #fff;
     font-size: 0.9em;
 }
 
 footer p {
     margin: 0;
+}
+
+/* Botones */
+button {
+    background-color: #f70103; /* Fondo rojo */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #ffb000; /* Hover amarillo */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
 }
