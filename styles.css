@@ -1,6 +1,3 @@
-/* Importar la fuente desde Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 /* Colores Oficiales Invertidos */
 :root {
     --color-primario: #ffb000; /* Amarillo */
@@ -20,7 +17,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif; /* Aplicar fuente profesional */
+    font-family: 'Roboto', sans-serif;
     background-color: var(--color-gris-claro);
     color: var(--color-texto);
     line-height: 1.6;
@@ -41,7 +38,7 @@ header {
 header .logo {
     max-width: 180px;
     margin-bottom: 15px;
-    border-radius: 15px; /* Esquinas redondeadas */
+    border-radius: 15px;
 }
 
 header h1 {
@@ -95,17 +92,6 @@ li strong {
     color: var(--color-secundario);
 }
 
-/* Estilo para las palabras "Nota" o "Importante" */
-p strong {
-    font-weight: 700; /* Negrita */
-    color: var(--color-acento); /* Rojo */
-}
-
-p .alert-text {
-    color: var(--color-acento); /* Rojo */
-    font-weight: 400; /* Sin negrita */
-}
-
 a {
     color: var(--color-acento);
     text-decoration: none;
@@ -115,6 +101,18 @@ a {
 a:hover {
     color: var(--color-secundario);
     text-decoration: underline;
+}
+
+/* Notas y Importante */
+.nota, .importante {
+    color: var(--color-acento);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nota strong, .importante strong {
+    font-weight: bold;
+    color: var(--color-acento);
 }
 
 /* Footer */
