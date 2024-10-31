@@ -1,9 +1,9 @@
 /* Colores Oficiales Invertidos */
 :root {
-    --color-primario: #ffb000; /* Amarillo */
-    --color-secundario: #0c1834; /* Azul oscuro */
-    --color-acento: #f70103; /* Rojo */
-    --color-fondo: #ffffff; /* Blanco para el fondo */
+    --color-primario: #f70103; /* Amarillo */
+    --color-secundario: #ffffff; /* Azul oscuro */
+    --color-acento: #ffb000; /* Rojo */
+    --color-fondo: #0c1834; /* Blanco para el fondo */
     --color-texto: #0c1834; /* Azul oscuro para el texto */
     --color-blanco: #ffffff;
     --color-gris-claro: #f0f0f0;
